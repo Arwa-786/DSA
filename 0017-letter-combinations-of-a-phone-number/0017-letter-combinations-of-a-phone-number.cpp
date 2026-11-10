@@ -5,7 +5,7 @@ public:
         vector<string> res = {""};
         for(char d : digits){
             vector<string> next;
-            for(string s : res){
+            for(string& s : res){
                 for(char letter : m[d-'0']){
                     next.push_back(s+letter);
                 }
