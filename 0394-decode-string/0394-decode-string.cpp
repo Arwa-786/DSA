@@ -1,31 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     string decodeString(string s) {
-        string cur = "";
-        int k = 0;
-        stack <int> numStack;
-        stack <string> strStack;
-        for(char ch : s){
-            if(isdigit(ch)) {
-                k = k*10 + (ch - '0');
-            }
-            else if (ch == '[') {
-                strStack.push(cur);
-                numStack.push(k);
-                cur = "";
-                k = 0;
-            }
-            else if (ch == ']') {
-                string prev = strStack.top(); strStack.pop();
-                int times = numStack.top(); numStack.pop();
-                string repeated = "";
-                for(int i = 0; i < times; i++) repeated += cur;
-                cur = prev + repeated;
-            }
-            else {
-                cur += ch;
-            }
+        int i = 0; // index ref
+        return decode(s, i);
+    }
+
+    string decode(const string& s, int& i) {
+      string result = "";
+      int num = 0;
+      while(i < s.size()) {
+        char c = s[i];
+        if (isdigit(c)) {
+          num = num * 10 + (c - '0'); // build number
+          i++;
+        } else if (c == '[') {
+          i++;
+          string inner = decode(s, i); // recurse
+          for (int k = 0; k < num; k++) result += inner;
+          num = 0; // reset
+        } else if (c == ']') {
+          i++; // skip ']'
+          return result; // return to caller
+        } else {
+          result += c; // ok, normal char
+          i++;
         }
-        return cur;
+      }
+      return result;
     }
 };
