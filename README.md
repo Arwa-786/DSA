@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Arwa-786/DSA/tree/master/0015-3sum) |
 | [0054-spiral-matrix](https://github.com/Arwa-786/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Arwa-786/DSA/tree/master/0056-merge-intervals) |
+| [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
 ## Two Pointers
 |  |
 | ------- |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Arwa-786/DSA/tree/master/0054-spiral-matrix) |
+| [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
 ## Simulation
 |  |
 | ------- |
@@ -32,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Arwa-786/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
 | [0394-decode-string](https://github.com/Arwa-786/DSA/tree/master/0394-decode-string) |
 ## Stack
 |  |
@@ -49,4 +52,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Arwa-786/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
