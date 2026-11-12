@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Arwa-786/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Arwa-786/DSA/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/Arwa-786/DSA/tree/master/0200-number-of-islands) |
 ## Two Pointers
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Arwa-786/DSA/tree/master/0054-spiral-matrix) |
 | [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/Arwa-786/DSA/tree/master/0200-number-of-islands) |
 ## Simulation
 |  |
 | ------- |
@@ -57,4 +59,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Arwa-786/DSA/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/Arwa-786/DSA/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Arwa-786/DSA/tree/master/0200-number-of-islands) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Arwa-786/DSA/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
